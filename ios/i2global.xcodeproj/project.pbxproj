@@ -11,6 +11,22 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E4E0D480AEC3428F978AA8DA /* Glory-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5ECBE74891C04BA49F6F02D7 /* Glory-Bold.ttf */; };
+		36D06C65770A4288B47C564B /* Glory-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FF2CFF3684B470DB35BAFB6 /* Glory-BoldItalic.ttf */; };
+		1AF6D04BEA3F43EAA9FF49E4 /* Glory-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F12262C80C64927919185C5 /* Glory-ExtraBold.ttf */; };
+		995D962A917941F4AB91837B /* Glory-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A16A2969F0944D9DA6AB3A8A /* Glory-ExtraBoldItalic.ttf */; };
+		A1EFC696979640B6A467B3CF /* Glory-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 756604BBE849471CA6CCEF37 /* Glory-ExtraLight.ttf */; };
+		F6080823545D49958C8ACA35 /* Glory-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 546B21BB8F5C48B688BCCE43 /* Glory-ExtraLightItalic.ttf */; };
+		52C8E2AA54E94397B6913738 /* Glory-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 777963CAD0EA4302BE06DF48 /* Glory-Italic.ttf */; };
+		3AD3A91B83BE4BB585DC4285 /* Glory-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 60F8914E04DE4C4DA1BB6A7B /* Glory-Light.ttf */; };
+		B40E22507EBA49F88F40FE41 /* Glory-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F092E4CD801A457D9354263D /* Glory-LightItalic.ttf */; };
+		9A725CBAFA1241C8872E0FC5 /* Glory-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6444B9F2D27047D1ADD75543 /* Glory-Medium.ttf */; };
+		D6EC4078E81F4E0FB9C421D8 /* Glory-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BC0061F591D4F9DA58843D6 /* Glory-MediumItalic.ttf */; };
+		B9967CB5D8DE44B0A8E3B8C3 /* Glory-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DFF27EB204F44E78D9CD7B2 /* Glory-Regular.ttf */; };
+		6EBE3CBA87314310B9D155CD /* Glory-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3F680893D7F47B5BC9AE2D5 /* Glory-SemiBold.ttf */; };
+		DCE99F6926214C5E99B38F36 /* Glory-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BF9B53D9A664DE4AB467982 /* Glory-SemiBoldItalic.ttf */; };
+		1D43498FBAD4471CA20D3862 /* Glory-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6717AB2D37174DCC8ED297E9 /* Glory-Thin.ttf */; };
+		51D3F39B42C1482D8FF6BD8D /* Glory-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C8ECF0878234FD5A06B10BB /* Glory-ThinItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,22 @@
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = i2global/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = i2global/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5ECBE74891C04BA49F6F02D7 /* Glory-Bold.ttf */ = {isa = PBXFileReference; name = "Glory-Bold.ttf"; path = "../app/assets/fonts/Glory-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FF2CFF3684B470DB35BAFB6 /* Glory-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Glory-BoldItalic.ttf"; path = "../app/assets/fonts/Glory-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F12262C80C64927919185C5 /* Glory-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Glory-ExtraBold.ttf"; path = "../app/assets/fonts/Glory-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A16A2969F0944D9DA6AB3A8A /* Glory-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Glory-ExtraBoldItalic.ttf"; path = "../app/assets/fonts/Glory-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		756604BBE849471CA6CCEF37 /* Glory-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Glory-ExtraLight.ttf"; path = "../app/assets/fonts/Glory-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		546B21BB8F5C48B688BCCE43 /* Glory-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Glory-ExtraLightItalic.ttf"; path = "../app/assets/fonts/Glory-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		777963CAD0EA4302BE06DF48 /* Glory-Italic.ttf */ = {isa = PBXFileReference; name = "Glory-Italic.ttf"; path = "../app/assets/fonts/Glory-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		60F8914E04DE4C4DA1BB6A7B /* Glory-Light.ttf */ = {isa = PBXFileReference; name = "Glory-Light.ttf"; path = "../app/assets/fonts/Glory-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F092E4CD801A457D9354263D /* Glory-LightItalic.ttf */ = {isa = PBXFileReference; name = "Glory-LightItalic.ttf"; path = "../app/assets/fonts/Glory-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6444B9F2D27047D1ADD75543 /* Glory-Medium.ttf */ = {isa = PBXFileReference; name = "Glory-Medium.ttf"; path = "../app/assets/fonts/Glory-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4BC0061F591D4F9DA58843D6 /* Glory-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Glory-MediumItalic.ttf"; path = "../app/assets/fonts/Glory-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6DFF27EB204F44E78D9CD7B2 /* Glory-Regular.ttf */ = {isa = PBXFileReference; name = "Glory-Regular.ttf"; path = "../app/assets/fonts/Glory-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3F680893D7F47B5BC9AE2D5 /* Glory-SemiBold.ttf */ = {isa = PBXFileReference; name = "Glory-SemiBold.ttf"; path = "../app/assets/fonts/Glory-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5BF9B53D9A664DE4AB467982 /* Glory-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Glory-SemiBoldItalic.ttf"; path = "../app/assets/fonts/Glory-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6717AB2D37174DCC8ED297E9 /* Glory-Thin.ttf */ = {isa = PBXFileReference; name = "Glory-Thin.ttf"; path = "../app/assets/fonts/Glory-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0C8ECF0878234FD5A06B10BB /* Glory-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Glory-ThinItalic.ttf"; path = "../app/assets/fonts/Glory-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +125,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				32A215059FB347219D1C8EA7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -115,6 +148,30 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		32A215059FB347219D1C8EA7 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5ECBE74891C04BA49F6F02D7 /* Glory-Bold.ttf */,
+				9FF2CFF3684B470DB35BAFB6 /* Glory-BoldItalic.ttf */,
+				3F12262C80C64927919185C5 /* Glory-ExtraBold.ttf */,
+				A16A2969F0944D9DA6AB3A8A /* Glory-ExtraBoldItalic.ttf */,
+				756604BBE849471CA6CCEF37 /* Glory-ExtraLight.ttf */,
+				546B21BB8F5C48B688BCCE43 /* Glory-ExtraLightItalic.ttf */,
+				777963CAD0EA4302BE06DF48 /* Glory-Italic.ttf */,
+				60F8914E04DE4C4DA1BB6A7B /* Glory-Light.ttf */,
+				F092E4CD801A457D9354263D /* Glory-LightItalic.ttf */,
+				6444B9F2D27047D1ADD75543 /* Glory-Medium.ttf */,
+				4BC0061F591D4F9DA58843D6 /* Glory-MediumItalic.ttf */,
+				6DFF27EB204F44E78D9CD7B2 /* Glory-Regular.ttf */,
+				A3F680893D7F47B5BC9AE2D5 /* Glory-SemiBold.ttf */,
+				5BF9B53D9A664DE4AB467982 /* Glory-SemiBoldItalic.ttf */,
+				6717AB2D37174DCC8ED297E9 /* Glory-Thin.ttf */,
+				0C8ECF0878234FD5A06B10BB /* Glory-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -185,6 +242,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E4E0D480AEC3428F978AA8DA /* Glory-Bold.ttf in Resources */,
+				36D06C65770A4288B47C564B /* Glory-BoldItalic.ttf in Resources */,
+				1AF6D04BEA3F43EAA9FF49E4 /* Glory-ExtraBold.ttf in Resources */,
+				995D962A917941F4AB91837B /* Glory-ExtraBoldItalic.ttf in Resources */,
+				A1EFC696979640B6A467B3CF /* Glory-ExtraLight.ttf in Resources */,
+				F6080823545D49958C8ACA35 /* Glory-ExtraLightItalic.ttf in Resources */,
+				52C8E2AA54E94397B6913738 /* Glory-Italic.ttf in Resources */,
+				3AD3A91B83BE4BB585DC4285 /* Glory-Light.ttf in Resources */,
+				B40E22507EBA49F88F40FE41 /* Glory-LightItalic.ttf in Resources */,
+				9A725CBAFA1241C8872E0FC5 /* Glory-Medium.ttf in Resources */,
+				D6EC4078E81F4E0FB9C421D8 /* Glory-MediumItalic.ttf in Resources */,
+				B9967CB5D8DE44B0A8E3B8C3 /* Glory-Regular.ttf in Resources */,
+				6EBE3CBA87314310B9D155CD /* Glory-SemiBold.ttf in Resources */,
+				DCE99F6926214C5E99B38F36 /* Glory-SemiBoldItalic.ttf in Resources */,
+				1D43498FBAD4471CA20D3862 /* Glory-Thin.ttf in Resources */,
+				51D3F39B42C1482D8FF6BD8D /* Glory-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
