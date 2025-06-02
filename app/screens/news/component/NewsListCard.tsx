@@ -8,7 +8,7 @@ import icons from '../../../config/icons';
 
 export const NewsListCard = ({data}: any) => {
   const navigation = useNavigation() as any;
-  const url = data.url ? {uri: data.url} : icons.common.defaultNews;
+  const url = data.urlToImage ? {uri: data.urlToImage} : icons.common.defaultNews;
   return (
     <TouchableOpacity
       style={styles.cardContainer}
