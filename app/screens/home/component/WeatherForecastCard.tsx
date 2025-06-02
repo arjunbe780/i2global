@@ -35,8 +35,11 @@ export const WeatherForecastCard = ({data}: any) => {
           <Image
             source={{uri: item?.icon}}
             style={{width: wp(28), height: wp(28)}}
+            resizeMode='cover'
           />
-          <Text style={styles.infoText2}>{item?.temperature}°C</Text>
+          <Text style={styles.infoText2}>
+            {item?.maxTemp} | {item?.minTemp}
+          </Text>
         </View>
       ))}
     </View>

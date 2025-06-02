@@ -1,6 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import HomeNavigator from './HomeNavigator';
+import NewsDetails from '../screens/news/NewsDetails';
 const Stack = createStackNavigator();
 
 const AppNavigator = () => {
@@ -9,6 +10,11 @@ const AppNavigator = () => {
       <Stack.Screen
         name="home"
         component={HomeNavigator}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="newsDetails"
+        component={NewsDetails}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

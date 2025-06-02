@@ -6,8 +6,8 @@ import {IconButton} from 'react-native-paper';
 import fonts from '../config/fonts';
 import {hp, wp} from '../config/dimension';
 import Home from '../screens/home/Home';
+import NewsForYou from '../screens/news/NewsForYou';
 import News from '../screens/news/News';
-import Settings from '../screens/settings/Settings';
 
 const Tab = createBottomTabNavigator();
 
@@ -130,8 +130,17 @@ const HomeNavigator = () => {
         component={Home}
         options={{
           headerShown: false,
-          tabBarLabel: 'Home',
+          tabBarLabel: 'HOME',
           tabBarIcon: 'home',
+        }}
+      />
+      <Tab.Screen
+        name="newsForYouTab"
+        component={NewsForYou}
+        options={{
+          headerShown: false,
+          tabBarLabel: 'FOR YOU',
+          tabBarIcon: 'account',
         }}
       />
       <Tab.Screen
@@ -139,17 +148,8 @@ const HomeNavigator = () => {
         component={News}
         options={{
           headerShown: false,
-          tabBarLabel: 'Explore',
+          tabBarLabel: 'NEWS',
           tabBarIcon: 'earth',
-        }}
-      />
-      <Tab.Screen
-        name="settingTab"
-        component={Settings}
-        options={{
-          headerShown: false,
-          tabBarLabel: 'Cart',
-          tabBarIcon: 'cog',
         }}
       />
     </Tab.Navigator>

@@ -1,6 +1,5 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet, ScrollView} from 'react-native';
-import icons from '../../../config/icons';
 import colors from '../../../config/colors';
 import {hp, wp} from '../../../config/dimension';
 import fonts from '../../../config/fonts';
@@ -10,17 +9,17 @@ export const CurrentWeatherCard = ({data}: any) => {
     <View style={styles.cardContainer}>
       <View style={styles.header}>
         <Text style={styles.todayText}>Today</Text>
-        <Text style={styles.dateText}>June 1</Text>
+        <Text style={styles.dateText}>{new Date().toDateString()}</Text>
       </View>
 
       <ScrollView style={styles.weatherContainer} horizontal>
         {data?.map((item: any, index: any) => (
           <View style={styles.weatherInfo} key={index}>
-            <Text style={styles.infoText}>{item.temperature}°C</Text>
+            <Text style={styles.infoText}>{item.temperature}</Text>
             <Image
               source={{uri: item.icon}}
               style={styles.weatherIcon}
-              resizeMode="contain"
+              resizeMode="cover"
             />
             <Text style={styles.infoText}>{item.time}</Text>
           </View>

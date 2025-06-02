@@ -1,17 +1,29 @@
-import React, {useEffect, useState} from 'react';
-import {Image, Text, View, StyleSheet} from 'react-native';
+import React from 'react';
+import {Image, Text, View, StyleSheet, TouchableOpacity} from 'react-native';
 import {wp} from '../../../config/dimension';
 import colors from '../../../config/colors';
 import fonts from '../../../config/fonts';
-import {createThumbnail} from 'react-native-create-thumbnail';
+import {useNavigation} from '@react-navigation/native';
+import icons from '../../../config/icons';
 
 export const NewsListCard = ({data}: any) => {
+  const navigation = useNavigation() as any;
+  const url = data.url ? {uri: data.url} : icons.common.defaultNews;
   return (
-    <View style={styles.cardContainer}>
-      <Image source={{uri: data.url}} style={styles.image} />
+    <TouchableOpacity
+      style={styles.cardContainer}
+      onPress={() => {
+        navigation.navigate('newsDetails', {url: data.url});
+      }}>
+      <Image
+        source={url}
+        style={styles.image}
+        defaultSource={icons.common.defaultNews}
+        resizeMode="cover"
+      />
       <View style={styles.textContainer}>
         <Text style={styles.title} numberOfLines={2} ellipsizeMode="tail">
-          {data.name}
+          {data.title}
         </Text>
         <Text style={styles.description} numberOfLines={3} ellipsizeMode="tail">
           {data.description}
@@ -20,7 +32,7 @@ export const NewsListCard = ({data}: any) => {
           {data.author}
         </Text>
       </View>
-    </View>
+    </TouchableOpacity>
   );
 };
 
@@ -37,6 +49,7 @@ const styles = StyleSheet.create({
     height: wp(130),
     borderRadius: wp(8),
     resizeMode: 'cover',
+    backgroundColor: colors.secondaryText,
   },
   textContainer: {
     flex: 1,
