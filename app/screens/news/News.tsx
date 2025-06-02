@@ -55,11 +55,10 @@ function News() {
       ...item,
       isSelected: item.value === value,
     }));
-    const filteredNews: any = category.filter((item: any) => item.isSelected);
     setIsFiltered(true);
     setCategory(updateList);
     dispatch(setIsLoading({isLoading: 'news'}));
-    dispatch(getTodayNews(filteredNews.value));
+    dispatch(getTodayNews(value));
     closeMenu();
   };
 
